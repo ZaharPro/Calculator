@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="CENTER" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="1.7976931348623157E308" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="1.7976931348623157E308" prefHeight="35.0" />
+        <RowConstraints maxHeight="1.7976931348623157E308" />
+        <RowConstraints maxHeight="1.7976931348623157E308" prefHeight="35.0" />
+        <RowConstraints maxHeight="1.7976931348623157E308" />
+        <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="1.7976931348623157E308" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button fx:id="seven" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#sevenAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="7" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+        <Button fx:id="eight" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#eightAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="8" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+        <Button fx:id="four" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fourAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+        <Button fx:id="five" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fiveAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="5" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+        <Button fx:id="one" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#oneAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+        <Button fx:id="two" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#twoAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+        <Button fx:id="nine" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#nineAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="9" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+        <Button fx:id="six" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#sixAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="6" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+        <Button fx:id="three" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#threeAction" prefHeight="30.0" prefWidth="30.0" styleClass="myButton" text="3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+        <Button fx:id="multiply" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#multiplyAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="*" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+        <Button fx:id="minus" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#minusAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="-" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+        <Button fx:id="sum" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#sumAction" prefHeight="30.0" prefWidth="30.0" styleClass="myButton" text="+" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+        <Button fx:id="exp" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#expAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="e" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+        <Button fx:id="zero" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#zeroAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+        <Button fx:id="point" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pointAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="." GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+        <Button fx:id="result" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#resultAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="=" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+        <Label fx:id="label2" alignment="CENTER" contentDisplay="TOP" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="myLabel" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+        <Button fx:id="c" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#cAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="c" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+        <Button fx:id="backspace" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#backspaceAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="&lt;=" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+        <Button fx:id="procent" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#procentAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="\%" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+        <Button fx:id="div" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#divAction" prefHeight="50.0" prefWidth="50.0" styleClass="myButton" text="/" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+        <Label fx:id="label1" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="myLabel" GridPane.columnSpan="4" />
+        <Label fx:id="oper" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="myLabel" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</GridPane>

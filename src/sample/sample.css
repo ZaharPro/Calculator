@@ -1,0 +1,9 @@
+.myLabel {
+    -fx-background-color: rgba(255, 231, 0, 0.43);
+    -fx-font-size: 19px;
+}
+
+.myButton {
+    -fx-background-color: rgba(255, 231, 0, 0.56);
+    -fx-font-size: 19px;
+}
